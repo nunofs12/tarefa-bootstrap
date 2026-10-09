@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="pt-pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio Pessoal - Nuno Valente</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" type="image/png" href="imagens/logo-NV.png" />
+  </head>
+  <body class="bg-dark text-white">
+    <!-- menu de navegação -->
+
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <img src="imagens/logo-NV.png" alt="" />
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menuPrincipal"
+            aria-controls="menuPrincipal"
+            aria-expanded="false"
+            aria-label="Abrir menu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="menuPrincipal">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#quem sou">Quem sou</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projetos">Projetos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contactos">Contactos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="quemsou" class="container py-5">
+      <div class="row align-items-center g-4">
+        <div class="col-12 col-md-5">
+          <img
+            src="imagens/foto200.png"
+            alt="Foto"
+            class="img-fluid rounded shadow"
+          />
+        </div>
+
+        <div class="col-12 col-md-7">
+          <h2 class="mb-3">Sobre mim</h2>
+
+          <p>
+            Olá! Chamo-me Nuno Valente e sou apaixonado/a por tecnologia, design
+            e desenvolvimento web.
+          </p>
+
+          <p>
+            Gosto de aprender novas competências, desenvolver projetos criativos
+            e encontrar soluções para diferentes desafios. O meu objetivo é
+            continuar a evoluir e criar trabalhos que façam a diferença.
+          </p>
+
+          <a href="#contactos" class="btn btn-primary mt-2">
+            Entra em contacto
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos">
+      <div class="container">
+        <h2 class="mb-3">Projetos</h2>
+        <p>Os meus últimos projetos</p>
+
+        <div class="row mt-5">
+          <div class="col-12 col-sm-4 col-lg-4 mb-4">
+            <div class="card bg-white text-dark h-100">
+              <img
+                src="imagens/stockapp.png"
+                class="card-img-top img-fluid"
+                alt="Imagem do projeto 1"
+              />
+              <div class="card-body text-center bg-secondary">
+                <h5 class="card-title">Stock app</h5>
+                <p class="card-text">PSI 20 stock market</p>
+                <a
+                  href="https://nunostockapp.netlify.app/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >Saber mais</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-4 col-lg-4 mb-4">
+            <div class="card bg-white text-dark h-100">
+              <img
+                src="imagens/dicegame.png"
+                class="card-img-top img-fluid"
+                alt="Imagem do projeto 2"
+              />
+
+              <div class="card-body text-center bg-success">
+                <h5 class="card-title">Jogo de dados</h5>
+                <p class="card-text">Acumule e não atinja 1</p>
+                <a
+                  href="https://nunovalente-dice-game.netlify.app/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >Saber mais</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-4 col-lg-4 mb-4">
+            <div class="card bg-white text-dark h-100">
+              <img
+                src="imagens/tarefa1.png"
+                class="card-img-top img-fluid"
+                alt="Imagem do projeto 3"
+              />
+
+              <div class="card-body text-center">
+                <h5 class="card-title">Tarefa intermédia</h5>
+                <p class="card-text">Tarefa de CSS</p>
+                <a
+                  href="https://nunofs12.github.io/Tarefa1-NunoValente/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >Saber mais</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- secção de contactos -->
+    <section id="contactos">
+      <div class="container mt-5">
+        <h2>Contactos</h2>
+        <p>Escreva qualquer coisa e eu responderei.</p>
+        <br />
+        <br />
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="firstName" class="form-label">Primeiro nome</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="firstName"
+                  name="firstName"
+                  placeholder="Introduz o primeiro nome"
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="lastName" class="form-label">Último nome</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="lastName"
+                  name="lastName"
+                  placeholder="Introduz o último nome"
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="phone" class="form-label"
+                  >Número de telemóvel</label
+                >
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="phone"
+                  name="phone"
+                  placeholder="912345678"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  placeholder="exemplo@email.com"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="message" class="form-label">Mensagem</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  name="message"
+                  rows="4"
+                  placeholder="Escreve a tua mensagem..."
+                  required
+                ></textarea>
+              </div>
+
+              <div class="d-flex justify-content-between mt-4 mb-5">
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="reset" class="btn btn-secondary">Reset</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="bg-white text-black text-center py-4 mt-5">
+      <div class="container">
+        <img src="imagens/logo-NV.png" alt="" />
+        <p class="mb-1">Portfolio</p>
+
+        <p class="text-secondary">Desenvolvido por Nuno &copy; 2026</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
